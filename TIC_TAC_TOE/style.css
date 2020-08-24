@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.container{
+    width: 50%;
+    margin:160px auto;
+    text-align: center;
+}
+table,tr,td{
+    border : 2px solid black;
+    margin: auto;
+}
+
+td{
+    width: 100px;
+    height:90px;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+td:hover{
+    cursor: pointer;
+    background-color: rgb(240, 236, 236);
+}
+button{
+    margin : 10px;
+    padding: 10px;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: grey;
+}
+button:hover {
+    background-color: rgb(228, 222, 222);
+    cursor: pointer;
+}

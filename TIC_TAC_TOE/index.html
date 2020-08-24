@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+    <div class="container">
+        <h1>TIC-TAC-TOC</h1>
+        <h2 id="msg" ></h2>
+        <div class="borad">
+            <table>
+                <tr>
+                    <td id="box-0" onclick="Move(this);"></td>
+                    <td id="box-1" onclick="Move(this);"></td>
+                    <td id="box-2" onclick="Move(this);"></td>
+                </tr>
+                <tr>
+                    <td id="box-3" onclick="Move(this);"></td>
+                    <td id="box-4" onclick="Move(this);"></td>
+                    <td id="box-5" onclick="Move(this);"></td>
+                </tr>
+                <tr>
+                    <td id="box-6" onclick="Move(this);"></td>
+                    <td id="box-7" onclick="Move(this);"></td>
+                    <td id="box-8" onclick="Move(this);"></td>
+                </tr>
+            </table>
+            <Button onclick="reset()">Reset</Button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
